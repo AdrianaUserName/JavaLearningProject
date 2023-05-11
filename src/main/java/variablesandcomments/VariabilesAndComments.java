@@ -17,7 +17,6 @@ public class VariabilesAndComments {
         int upperLimitOfIntDataType;
         long lowerLimitOfLongDataType;
         long upperLimitOfLongDataType;
-        float lowerLimitOfFloatDataType;
         float upperLimitOfFloatDataType;
         double lowerLimitOfDoubleDataType;
         double upperLimitOfDoubleDataType;
@@ -34,9 +33,8 @@ public class VariabilesAndComments {
         upperLimitOfShortDataType = 32767;
         lowerLimitOfIntDataType = -2147483648;
         upperLimitOfIntDataType = 2147483647;
-        lowerLimitOfLongDataType = -9223372036854775808;
-        upperLimitOfLongDataType = 9223372036854775807;
-        lowerLimitOfFloatDataType = -3.4E + 38f;
+        lowerLimitOfLongDataType = -2147483648;
+        upperLimitOfLongDataType = 2147483647;
         upperLimitOfFloatDataType = 3.4E+38f;
         lowerLimitOfDoubleDataType = -1.7E+308D;
         upperLimitOfDoubleDataType = 1.7E+305;
